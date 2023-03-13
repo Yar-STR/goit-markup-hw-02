@@ -1,0 +1,73 @@
+body {
+font-family: 'Roboto';
+font-style: normal;
+background: #FFFFFF;
+}
+
+/* Header */
+.header {
+   
+}
+
+/* Logo */
+.logo-web {
+  width: 44px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+text-decoration:none; property
+
+}
+.logo-std {
+   width: 71px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+flex: none;
+order: 1;
+flex-grow: 0;
+text-decoration:none; property
+}
+
+.nav-menu {
+
+}
+.nav-linklist{
+   list-style-type: none;
+}
+.studio {
+  text-decoration:none;
+}
+.portfolio {
+   text-decoration:none;
+}
+.contacts {  
+   text-decoration:none;
+}
+.contact-mail {
+text-decoration:none
+}
+.contact-phone {
+text-decoration:none
+}
+.contact-list {
+   list-style-type: none
+}
