@@ -71,3 +71,7 @@ text-decoration:none
 .contact-list {
    list-style-type: none
 }
+
+.product-btn {
+      display: none;
+}
