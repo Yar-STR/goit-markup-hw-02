@@ -1,7 +1,6 @@
 body {
 font-family: 'Roboto';
-font-style: normal;
-background: #FFFFFF;
+letter-spacing: 0.02em;
 }
 
 /* Header */
@@ -15,10 +14,10 @@ background: #FFFFFF;
 height: 21px;
 
 font-family: 'Raleway';
-font-style: normal;
+
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -28,7 +27,7 @@ text-decoration:none; property
 
 }
 .logo-std {
-   width: 71px;
+width: 71px;
 height: 21px;
 
 font-family: 'Raleway';
@@ -54,24 +53,61 @@ text-decoration:none; property
    list-style-type: none;
 }
 .studio {
-  text-decoration:none;
+text-decoration:none;
+width: 48px;
+height: 24px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: #2E2F42;
+
 }
 .portfolio {
-   text-decoration:none;
+text-decoration:none;
+width: 66px;
+height: 24px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
+color: #2E2F42;
+
 }
 .contacts {  
    text-decoration:none;
-}
-.contact-mail {
-text-decoration:none
-}
-.contact-phone {
-text-decoration:none
-}
-.contact-list {
-   list-style-type: none
+   width: 67px;
+height: 24px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: #2E2F42;
 }
 
+.contact-list {
+   list-style-type: none
+   }
+
+.contact-mail {
+   text-decoration: none;
+   width: 153px;
+height: 24px;
+   font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+}
+
+.contact-phone {
+text-decoration: none;
+width: 151px;
+height: 24px;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+}
+
+
+/* Portfolio page  */
 .product-btn {
       display: none;
 }
