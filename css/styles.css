@@ -3,7 +3,7 @@
    --background-color-white: #FFFFFF;
    --contacts-color: #434455;
    --skill-descrip: #434455;
-
+   --portfolio-descrip: #434455;
 }
 
 
@@ -67,27 +67,16 @@ color: var(--main-text-color);
    }
 
 
-.contact-mail {
+.contact {
    text-decoration: none;
 font-size: 16px;
 line-height: 1.5;
 color: var(--contacts-color);
 }
-   .contact-mail:hover,
-   .contact-mail:focus {
+   .contact-list .contact:hover,
+   .contact-list .contact:focus {
       color: crimson; }
       
-.contact-phone {
-text-decoration: none;
-font-size: 16px;
-line-height: 1.5;
-color: var(--contacts-color);
-}
-.contact-phone:hover,
-.contact-phone:focus {
-color: crimson;}
-
-
 
 /* Site banner */
 .section-banner {
@@ -252,18 +241,76 @@ text-decoration:none; property
 }
 
 .footer-text {
-
 font-size: 16px;
 line-height: 1.5;
 color: #F4F4FD;
 }
 
 
-
-
-
 /* Portfolio page  */
-.product-btn {
+
+/* Hidden H1  */
+.Portfolio-sites {
       display: none;
-      
+      }
+/* Section buttons  */
+.button-portf {
+
+font-family: inherit;
+cursor: pointer;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+color: #4D5AE5;
+background-color: #F4F4FD;
+
+ display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+}
+
+  .button-list-potrfolio .button-portf:hover,
+  .button-list-potrfolio .button-portf:focus {
+      background-color: #4D5AE5;
+      color:  #F4F4FD;
+   }
+
+   .button-list-potrfolio {list-style-type: none;}
+
+   .section-project-cards {display: none;}
+
+   /* Section: Project cards  */
+   .cards-links-img {
+list-style-type: none;
+   }
+
+
+/* .section-project-cards {
+} */
+
+.bank-app, .cashless-p, .meditation-app, .taxi-sevice, .scr-illustr,
+.online-courses, .instagram, .food, .coffee {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+
+
+
+.portfol-descrip{
+   color: var(--portfolio-descrip)
+   font-size: 16px;
+line-height: 1.5;
 }
