@@ -19,6 +19,7 @@ body {
 font-family: 'Roboto', 'sans-serif';
 letter-spacing: 0.02em;
 background: var(--background-color-white);
+color: #434455;
 }
 
 /* Header */
