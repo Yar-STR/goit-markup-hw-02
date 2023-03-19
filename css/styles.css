@@ -6,10 +6,12 @@
    --portfolio-descrip: #434455;
    --button-color-blue-portf: #4D5AE5;
    --logo-color-blue: #4D5AE5;
+   --logo-color-black: #2E2F42;
    --button-centr-color-white: #FFFFFF;
    --button-centr-color-blue: #4D5AE5;
    --text-banner-color: #FFFFFF;
    --contact-links-hover-color: crimson;
+   --footer-background-color: #2E2F42;
 }
 
 
@@ -27,7 +29,7 @@ background: var(--background-color-white);
 /* Logo */
 .logo-web {
 font-family: 'Raleway', sans-serif;
-
+font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 display: flex;
@@ -39,7 +41,7 @@ text-decoration:none; property
 }
 .logo-std {
 font-family: 'Raleway', sans-serif;
-
+font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 display: flex;
@@ -65,6 +67,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 color: var(--main-text-color);
+letter-spacing: 0.02em;
 }
 
 
@@ -203,7 +206,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 text-align: center;
-color: #2E2F42;
+color: var(--main-text-color)#;
 }
 
 .mark-g-img, .tom-f-img, .camila-g-img, .daniel-w-img{
@@ -223,12 +226,12 @@ border-radius: 0px 0px 4px 4px;
 
 .footer-section {
  
-background: #2E2F42;
+background: var(--footer-background-color);
 }
 .logo-std-ft {
 
 font-family: 'Raleway', sans-serif;
-
+font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 display: flex;
