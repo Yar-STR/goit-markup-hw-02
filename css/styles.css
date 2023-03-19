@@ -4,6 +4,12 @@
    --contacts-color: #434455;
    --skill-descrip: #434455;
    --portfolio-descrip: #434455;
+   --button-color-blue-portf: #4D5AE5;
+   --logo-color-blue: #4D5AE5;
+   --button-centr-color-white: #FFFFFF;
+   --button-centr-color-blue: #4D5AE5;
+   --text-banner-color: #FFFFFF;
+   --contact-links-hover-color: crimson;
 }
 
 
@@ -28,7 +34,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
+color: var(--logo-color-blue);
 text-decoration:none; property
 }
 .logo-std {
@@ -75,7 +81,7 @@ color: var(--contacts-color);
 }
    .contact-list .contact:hover,
    .contact-list .contact:focus {
-      color: crimson; }
+      color: var(--contact-links-hover-color); }
       
 
 /* Site banner */
@@ -92,7 +98,7 @@ font-size: 56px;
 line-height: 1.071;
 text-align: center;
 
-color: #FFFFFF;
+color: var(--text-banner-color);
 background: var(--main-text-color);
 }
 
@@ -106,8 +112,8 @@ display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 text-transform: capitalize;
-color: #FFFFFF;
-background-color: #4D5AE5;
+color: var(--button-centr-color-white);
+background-color: var(--button-centr-color-blue);
 
  display: flex;
 flex-direction: row;
@@ -118,11 +124,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 
 }
-   .button-style:hover,
+   /* .button-style:hover,
    .button-style:focus {
-      background-color: #4D5AE5;
+      background-color: var(--button-color);
       color: #FFFFFF;;
-   }
+   } */
    
    
    /* Section Skills */
@@ -173,8 +179,6 @@ list-style-type: none;
   
 }
 
-
-
 /* Section team  */
 .our-team-section {
 
@@ -197,7 +201,7 @@ list-style-type: none;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height: 1.2;
 text-align: center;
 color: #2E2F42;
 }
@@ -215,9 +219,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 border-radius: 0px 0px 4px 4px;
 }
 
- 
 /* Footer section  */
-
 
 .footer-section {
  
@@ -266,7 +268,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 text-transform: capitalize;
-color: #4D5AE5;
+color: var(--button-color-blue-portf);
 background-color: #F4F4FD;
 
  display: flex;
@@ -281,19 +283,17 @@ border-radius: 4px;
 
   .button-list-potrfolio .button-portf:hover,
   .button-list-potrfolio .button-portf:focus {
-      background-color: #4D5AE5;
+      background-color: var(--button-color-blue-portf);
       color:  #F4F4FD;
    }
 
    .button-list-potrfolio {list-style-type: none;}
 
-   .section-project-cards {display: none;}
 
    /* Section: Project cards  */
    .cards-links-img {
 list-style-type: none;
    }
-
 
 /* .section-project-cards {
 } */
@@ -306,8 +306,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
-
-
 
 .portfol-descrip{
    color: var(--portfolio-descrip)
