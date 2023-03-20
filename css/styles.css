@@ -1,25 +1,32 @@
 :root {
+   --body-color: #434455;
    --main-text-color: #2E2F42;
    --background-color-white: #FFFFFF;
    --contacts-color: #434455;
    --skill-descrip: #434455;
    --portfolio-descrip: #434455;
    --button-color-blue-portf: #4D5AE5;
+   --button-color-white-portf: #F4F4FD;
+   --button-color-centr-hover: #404BBF;
    --logo-color-blue: #4D5AE5;
    --logo-color-black: #2E2F42;
    --button-centr-color-white: #FFFFFF;
    --button-centr-color-blue: #4D5AE5;
    --text-banner-color: #FFFFFF;
-   --contact-links-hover-color: crimson;
+   --contact-links-hover-color: #404BBF;
    --footer-background-color: #2E2F42;
-}
+   --nav-list-color: #404BBF;
+   --background-team-section: #F4F4FD;
+   --logo-std-ft: #F4F4FD;
+   --logo-text-ft: #F4F4FD;
+   }
 
 
 body {
 font-family: 'Roboto', 'sans-serif';
 letter-spacing: 0.02em;
 background: var(--background-color-white);
-color: #434455;
+color: var(--body-color);
 }
 
 /* Header */
@@ -38,10 +45,13 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--logo-color-blue);
-text-decoration:none; property
+property
 }
+
+
+
 .logo-std {
-font-family: 'Raleway', sans-serif;
+   font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -49,21 +59,21 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2E2F42;
+color: var(--main-text-color);
 flex: none;
 order: 1;
 flex-grow: 0;
-text-decoration:none; property
+property
 }
+
 
 .nav-menu {
 
 }
-.nav-linklist{
-   list-style-type: none;
-}
+/* .nav-linklist{} */
+
+
 .studio-link, .contacts-link, .portfolio-link {
-text-decoration:none;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -71,14 +81,19 @@ color: var(--main-text-color);
 letter-spacing: 0.02em;
 }
 
+.nav-linklist .link:hover,
+.nav-linklist .link:focus {
+   color: var(--nav-list-color);
+}
 
-.contact-list {
-   list-style-type: none
-   }
 
+/* .contact-list {   } */
 
+address {
+   font-style: normal;
+}
 .contact {
-   text-decoration: none;
+ 
 font-size: 16px;
 line-height: 1.5;
 color: var(--contacts-color);
@@ -87,6 +102,9 @@ color: var(--contacts-color);
    .contact-list .contact:focus {
       color: var(--contact-links-hover-color); }
       
+.list { list-style-type:none;}
+
+.link {text-decoration:none;}
 
 /* Site banner */
 .section-banner {
@@ -128,11 +146,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 
 }
-   /* .button-style:hover,
+   .button-style:hover,
    .button-style:focus {
-      background-color: var(--button-color);
+      background-color: var(--button-color-centr-hover);
       color: #FFFFFF;;
-   } */
+   }
    
    
    /* Section Skills */
@@ -141,9 +159,9 @@ border-radius: 4px;
     display: none;
 }
 
-.skill-list {
-    list-style-type: none;
-}
+/* .skill-list {
+   
+} */
 
 .strategy-skill, .diligence-skill, .punctuality-skill, .technologies-skill{
 font-weight: 500;
@@ -178,15 +196,14 @@ text-transform: capitalize;
 color: var(--main-text-color);
 }
 
-.list-of-doing {
-list-style-type: none;
+/* .list-of-doing {
   
-}
+} */
 
 /* Section team  */
 .our-team-section {
 
-background: #F4F4FD;
+background: var(--background-team-section);
 }
 
 .team-title {
@@ -197,9 +214,9 @@ text-transform: capitalize;
 color: var(--main-text-color);
 }
 
-.team-list {
-list-style-type: none;
-}
+/* .team-list {
+
+} */
 
 .mark-g, .tom-f, .camila-g, .daniel-w {
 font-style: normal;
@@ -207,7 +224,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 text-align: center;
-color: var(--main-text-color)#;
+color: var(--main-text-color);
 }
 
 .mark-g-img, .tom-f-img, .camila-g-img, .daniel-w-img{
@@ -239,19 +256,18 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #F4F4FD;
+color: var(--logo-std-ft);
 flex: none;
 order: 1;
 flex-grow: 0;
-text-decoration:none; property
+property
 }
 
 .footer-text {
 font-size: 16px;
 line-height: 1.5;
-color: #F4F4FD;
+   color: var(--logo-text-ft);
 }
-
 
 /* Portfolio page  */
 
@@ -273,7 +289,7 @@ text-align: center;
 letter-spacing: 0.04em;
 text-transform: capitalize;
 color: var(--button-color-blue-portf);
-background-color: #F4F4FD;
+background-color: var(--button-color-white-portf);
 
  display: flex;
 flex-direction: row;
@@ -288,16 +304,14 @@ border-radius: 4px;
   .button-list-potrfolio .button-portf:hover,
   .button-list-potrfolio .button-portf:focus {
       background-color: var(--button-color-blue-portf);
-      color:  #F4F4FD;
+      color:  var(--button-color-white-portf);
    }
 
-   .button-list-potrfolio {list-style-type: none;}
+   /* .button-list-potrfolio {} */
 
 
    /* Section: Project cards  */
-   .cards-links-img {
-list-style-type: none;
-   }
+   /* .cards-links-img {   } */
 
 /* .section-project-cards {
 } */
@@ -312,7 +326,7 @@ color: var(--main-text-color);
 }
 
 .portfol-descrip{
-   color: var(--portfolio-descrip)
+   color: var(--portfolio-descrip);
    font-size: 16px;
 line-height: 1.5;
 }
