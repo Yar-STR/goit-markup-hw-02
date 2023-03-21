@@ -30,9 +30,9 @@ color: var(--body-color);
 }
 
 /* Header */
-.header {
+/* .header {
    
-}
+} */
 
 /* Logo */
 .logo-web {
@@ -45,25 +45,24 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--logo-color-blue);
-property
-}
-
-
-
-.logo-std {
-   font-family: 'Raleway', sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--main-text-color);
 flex: none;
-order: 1;
-flex-grow: 0;
-property
+order: 0;
+flex-grow: 0;}
+
+
+
+.logo-std {   font-family: 'Raleway', 'sans-serif';
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--main-text-color);
+   flex: none;
+   order: 1;
+   flex-grow: 0;
 }
 
 
@@ -182,10 +181,10 @@ flex-grow: 0;
 }
 
 /* Section: what are we doing */
-.section2 {
+/* .section2 {
  
 
-}
+} */
 .section-doing {
 
 font-weight: 700;
@@ -260,7 +259,6 @@ color: var(--logo-std-ft);
 flex: none;
 order: 1;
 flex-grow: 0;
-property
 }
 
 .footer-text {
@@ -271,10 +269,7 @@ line-height: 1.5;
 
 /* Portfolio page  */
 
-/* Hidden H1  */
-.Portfolio-sites {
-      display: none;
-      }
+
 /* Section buttons  */
 .button-portf {
 
