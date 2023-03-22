@@ -19,6 +19,7 @@
    --background-team-section: #F4F4FD;
    --logo-std-ft: #F4F4FD;
    --logo-text-ft: #F4F4FD;
+   --team-position-color: #434455;
    }
 
 
@@ -40,14 +41,12 @@ font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-display: flex;
-align-items: center;
+
+/* align-items: center; */
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--logo-color-blue);
-flex: none;
-order: 0;
-flex-grow: 0;}
+}
 
 
 
@@ -55,15 +54,11 @@ flex-grow: 0;}
    font-weight: 800;
    font-size: 18px;
    line-height: 1.17;
-   display: flex;
-   align-items: center;
+   /* align-items: center; */
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: var(--main-text-color);
-   flex: none;
-   order: 1;
-   flex-grow: 0;
-}
+  }
 
 
 .nav-menu {
@@ -117,7 +112,7 @@ background: var ; */
 .site-banner {
 font-size: 56px;
 line-height: 1.071;
-text-align: center;
+/* text-align: center; */
 
 color: var(--text-banner-color);
 background: var(--main-text-color);
@@ -129,20 +124,19 @@ cursor: pointer;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
-align-items: center;
+
 letter-spacing: 0.04em;
 text-transform: capitalize;
 color: var(--button-centr-color-white);
 background-color: var(--button-centr-color-blue);
 
- display: flex;
+ /* display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 16px 32px;
 gap: 10px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+border-radius: 4px; */
 
 }
    .button-style:hover,
@@ -154,30 +148,22 @@ border-radius: 4px;
    
    /* Section Skills */
 
-.our-skills {
-    display: none;
-}
-
 /* .skill-list {
    
 } */
 
-.strategy-skill, .diligence-skill, .punctuality-skill, .technologies-skill{
+.skill-item {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 color: var(--main-text-color);
-flex: none;
-order: 0;
-flex-grow: 0;
+
 }
-.strategy-skill-descrip, .punctuality-skill-descrip, .diligence-skill-descrip, .technologies-skill-descrip {
+.skill-descrip {
 font-size: 16px;
 line-height: 1.5;
 color: var(--skill-descrip);
-flex: none;
-order: 1;
-flex-grow: 0;
+
 }
 
 /* Section: what are we doing */
@@ -190,7 +176,7 @@ flex-grow: 0;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
-text-align: center;
+/* text-align: center; */
 text-transform: capitalize;
 color: var(--main-text-color);
 }
@@ -208,7 +194,7 @@ background: var(--background-team-section);
 .team-title {
 font-size: 36px;
 line-height: 1.11;
-text-align: center;
+/* text-align: center; */
 text-transform: capitalize;
 color: var(--main-text-color);
 }
@@ -217,16 +203,16 @@ color: var(--main-text-color);
 
 } */
 
-.mark-g, .tom-f, .camila-g, .daniel-w {
+.team-name {
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-text-align: center;
+/* text-align: center; */
 color: var(--main-text-color);
 }
 
-.mark-g-img, .tom-f-img, .camila-g-img, .daniel-w-img{
+/* .team-img {
    display: flex;
 flex-direction: column;
 justify-content: center;
@@ -237,6 +223,12 @@ gap: 32px;
 background: var(--background-color-white);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
+} */
+
+.team-position {
+font-size: 16px;
+line-height: 1.5;
+color: var(--team-position-color);
 }
 
 /* Footer section  */
@@ -251,14 +243,10 @@ font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--logo-std-ft);
-flex: none;
-order: 1;
-flex-grow: 0;
+
 }
 
 .footer-text {
@@ -278,21 +266,13 @@ cursor: pointer;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
+/* align-items: center;
+text-align: center; */
 letter-spacing: 0.04em;
 text-transform: capitalize;
 color: var(--button-color-blue-portf);
 background-color: var(--button-color-white-portf);
 
- display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 16px 32px;
-gap: 10px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
 
 }
 
@@ -311,8 +291,7 @@ border-radius: 4px;
 /* .section-project-cards {
 } */
 
-.bank-app, .cashless-p, .meditation-app, .taxi-sevice, .scr-illustr,
-.online-courses, .instagram, .food, .coffee {
+.sector-business {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
