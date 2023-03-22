@@ -61,9 +61,9 @@ color: var(--logo-color-blue);
   }
 
 
-.nav-menu {
+/* .nav-menu {
 
-}
+} */
 /* .nav-linklist{} */
 
 
@@ -75,9 +75,9 @@ color: var(--main-text-color);
 letter-spacing: 0.02em;
 }
 
-.nav-linklist .link:hover,
-.nav-linklist .link:focus {
-   color: var(--nav-list-color);
+.link:hover,
+.link:focus {
+color: var(--nav-list-color);
 }
 
 
@@ -102,12 +102,7 @@ color: var(--contacts-color);
 
 /* Site banner */
 .section-banner {
-   /* position: absolute;
-width: 1440px;
-height: 600px;
-left: 0px;
-top: 72px;
-background: var ; */
+background: var(--main-text-color);
 }
 .site-banner {
 font-size: 56px;
@@ -115,7 +110,7 @@ line-height: 1.071;
 /* text-align: center; */
 
 color: var(--text-banner-color);
-background: var(--main-text-color);
+
 }
 
 .button-style {
@@ -142,7 +137,7 @@ border-radius: 4px; */
    .button-style:hover,
    .button-style:focus {
       background-color: var(--button-color-centr-hover);
-      color: #FFFFFF;;
+      color: var(--button-centr-color-white);
    }
    
    
