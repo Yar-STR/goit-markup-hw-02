@@ -150,7 +150,9 @@ border-radius: 4px; */
 /* .skill-list {
    
 } */
+/* .hidden-title{
 
+} */
 .skill-item {
 font-weight: 500;
 font-size: 20px;
@@ -206,7 +208,7 @@ letter-spacing: 0.02em;
 }
 
 .team-list {
-color: var(--background-color-white);
+color: #FFFFFF;
 }
 
 .team-name {
@@ -284,8 +286,8 @@ background-color: var(--button-color-white-portf);
 
   .button-portf:hover,
   .button-portf:focus {
-      background-color: var(--button-color-blue-portf);
-      color:  var(--button-color-white-portf);
+      background-color:#404BBF;
+      color:  #FFFFFF;
    }
 
    /* .button-list-potrfolio {} */
