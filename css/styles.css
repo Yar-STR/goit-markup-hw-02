@@ -106,9 +106,9 @@ background: var(--main-text-color);
 }
 .site-banner {
 font-size: 56px;
-line-height: 1.071;
-/* text-align: center; */
-
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
 color: var(--text-banner-color);
 
 }
@@ -143,6 +143,10 @@ border-radius: 4px; */
    
    /* Section Skills */
 
+   /* .skill-section {
+
+   } */
+
 /* .skill-list {
    
 } */
@@ -152,6 +156,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 color: var(--main-text-color);
+letter-spacing: 0.02em;
 
 }
 .skill-descrip {
@@ -166,14 +171,19 @@ color: var(--skill-descrip);
  
 
 } */
+/* 
+.activity-section{
+
+} */
 .section-doing {
 
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
-/* text-align: center; */
+text-align: center;
 text-transform: capitalize;
 color: var(--main-text-color);
+letter-spacing: 0.02em;
 }
 
 /* .list-of-doing {
@@ -189,20 +199,22 @@ background: var(--background-team-section);
 .team-title {
 font-size: 36px;
 line-height: 1.11;
-/* text-align: center; */
 text-transform: capitalize;
 color: var(--main-text-color);
+text-align: center;
+letter-spacing: 0.02em;
 }
 
-/* .team-list {
-
-} */
+.team-list {
+color: var(--background-color-white);
+}
 
 .team-name {
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
 /* text-align: center; */
 color: var(--main-text-color);
 }
